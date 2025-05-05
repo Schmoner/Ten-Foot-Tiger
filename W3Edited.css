@@ -325,12 +325,12 @@ body {font-family: Copperplate; font-size:20px;}
   }
   .w3-dropdown-hover:first-child,
   .w3-dropdown-click:hover {
-    background-color: #ccc;
+    background-color: orange;
     color: #000;
   }
   .w3-dropdown-hover:hover > .w3-button:first-child,
   .w3-dropdown-click:hover > .w3-button:first-child {
-    background-color: #ccc;
+    background-color: orange;
     color: #000;
   }
   .w3-dropdown-content {
@@ -648,7 +648,7 @@ body {font-family: Copperplate; font-size:20px;}
     .w3-bar-item.w3-mobile,
     .w3-dropdown-hover.w3-mobile,
     .w3-dropdown-click.w3-mobile {
-      text-align: center;
+      text-align: left;
     }
     .w3-dropdown-hover.w3-mobile,
     .w3-dropdown-hover.w3-mobile .w3-btn,
