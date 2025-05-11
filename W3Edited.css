@@ -108,11 +108,11 @@ html {box-sizing: border-box;}
   }
   /* End extract */
 
-body {font-family: Copperplate; font-size:20px;}
+body {font-family: Copperplate; font-size:25px;}
 
 .bgimg {min-height: 100%; background-position: center; background-size: cover;}
 
-.h1 {font-size: 40px;}
+.h1 {font-size: 35px;}
 .h2 {font-size: 30px;}
 .h3 {font-size: 25px;}  
 
@@ -142,6 +142,7 @@ body {font-family: Copperplate; font-size:20px;}
 .padding4 {padding-left: 20px; padding-right: 20px;}
 .padding5 {padding-top: 100px;}
 .padding6 {padding-bottom: 50px;}
+.padding7 {padding:10px;}
 
 .table {width:25%; height: 100px;}
 
