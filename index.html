@@ -30,22 +30,23 @@
     </head>
 <body>
 
+
 <!-- Header NavBar-->
 
-<header class="sticky-box1 h2 text-center w3-top float" style="width:100%; background-color: black">
+<header class="header sticky-box1 h2 text-center w3-top float" style="width:100%; background-color: black">
   <a href="#about">
     <img class="w3-left padding" style="height: 145px;" src="./TFT_Logo.png"> </a> 
-      <i class="w3-right fa fa-shopping-cart margin2 padding2" style="font-size:50px; color:white;padding:22px;"></i>
+      <i class="w3-right fa fa-shopping-cart margin2 padding2" style="font-size:50px; color:black;padding:22px;"></i>
         <h1 style="color: white;">Ten Foot Tiger</h1>
         <nav class="w3-hide-small">
         <div class="text-center h3 padding7" style="width:100%; color: black; background-color: white;">
-    <!--<i class="w3-left fa fa-bars margin1 w3-hover-text-orange w3-hide-large"></i>-->
+    <i class="w3-left fa fa-bars margin1 w3-hover-text-orange w3-hide-large"></i>
   <a
     href="javascript:void(0)"
     class="w3-bar-item w3-button text-center"
     onclick="w3_open()">
   </a>
-      <!--<a href="#about" class="w3-bar-item w3-button w3-hover-text-orange w3-hide-small" >About</a>-->
+      <a href="#about" class="w3-bar-item w3-button w3-hover-text-orange w3-hide-small" >About</a>
       <a href="#events" class="w3-bar-item w3-button w3-hover-text-orange">Events</a>
       <a href="#music" class="w3-bar-item w3-button w3-hover-text-orange">Music</a>
       <a href="#photos" class="w3-bar-item w3-button w3-hover-text-orange">Photos</a>
@@ -56,8 +57,10 @@
 </header>
 </nav>
 
+
 <!-- Sidebar (hidden by default) -->
-<!--<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-animate-left left-align w3-center w3-hide-large" style="font-size:20px; display:box; width:200px; height:350px; color: black; background-color: white;" id="mySidebar">
+
+<nav class="w3-sidebar h2 w3-bar-block w3-card w3-top w3-animate-left left-align w3-center w3-hide-large" style="font-size:20px; display:box; width:200px; height:350px; color: black; background-color: white;" id="mySidebar">
   <a 
       href="javascript:void(0)" 
       onclick="w3_close()"
@@ -68,9 +71,11 @@
     <a href="#photos" onclick="w3_close()" class="w3-bar-item w3-button">Photos</a>
     <a href="#videos" onclick="w3_close()" class="w3-bar-item w3-button">Videos</a>
     <a href="#merch" onclick="w3_close()" class="w3-bar-item w3-button">Merch</a>
-</nav>-->
+</nav>
 
-  <!-- Background Image / About-->
+
+<!-- Background Image / About-->
+
 <div id="about" class="w3-container padding3">
     <img class="w3-image padding3" style="width:100%;" alt="Ten Foot Tiger Band" src="./TFT Press Pic - Color.jpg"/>
       <div class="w3-col l12 w3-padding-large w3-left" style="width:100%;margin-top:20px; margin-bottom: 20px;">
@@ -78,7 +83,9 @@
       </div>
 </div>
 
+
 <!--Lightbox Images-->
+
     <div class="center flex-container" style="width:100%;">
       <img class="side-margin padding style1 w3-hover-shadow" src="./TFT Band 1.png" 
         style="cursor: zoom-in"
@@ -119,7 +126,7 @@
   <div class="flex-container w3-row" style="width:100%;"> 
       <div class="w3-center padding style1">
         <button onclick="myAccordion('accordion1')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn1">
-          <h4 class="padding side-margin text-center" style="width:33%;">Dan Green<br>Guitar<br><br><img class="center w3-hover-white" src="./PawPrint.png"/></h4> 
+          <h4 class="padding side-margin text-center h3" style="width:33%;">Dan Green<br>Guitar<br><br><img class="center w3-hover-black" src="./PawPrint.png"/></h4> 
         </button>
           <div
               id="accordion1"
@@ -131,7 +138,7 @@
     
       <div class="w3-center padding style1">
         <button onclick="myAccordion('accordion2')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn2">
-          <h4 class="padding side-margin text-center" style="width:33%;">Mike Palmer<br>Bass<br><br><img class="center w3-hover-white" src="./PawPrint.png"/></h4> 
+          <h4 class="padding side-margin text-center h3" style="width:33%;">Mike Palmer<br>Bass<br><br><img class="center w3-hover-black" src="./PawPrint.png"/></h4> 
         </button>
           <div
               id="accordion2"
@@ -143,7 +150,7 @@
     
       <div class="w3-center padding style1">
         <button onclick="myAccordion('accordion3')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn3">
-          <h4 class="padding side-margin text-center" style="width:33%;">Billy Thompson<br>Drums<br><br><img class="center w3-hover-white" src="./PawPrint.png"/></h4> 
+          <h4 class="padding side-margin text-center h3" style="width:33%;">Billy Thompson<br>Drums<br><br><img class="center w3-hover-black" src="./PawPrint.png"/></h4> 
         </button>
           <div
               id="accordion3"
@@ -156,13 +163,14 @@
 
   
 <!-- Events Section -->
-<div id="events" class="w3-container w3-row w3-center w3-padding-large padding5">
-  <h1 class="w3-center padding6">Events</h1><br>
+
+<div id="events" class="w3-container h2 w3-row w3-center w3-padding-large padding5">
+  <h1 class="w3-center">Events</h1><br>
   <div>
-  <img class="w3-image" style="width:75%;" alt="Ten Foot Tiger Band" src="./GRG.png"/></div>
-    <div class="w3-col l6 flex-container padding" style="width:50%">
+  <!--<img class="w3-image" style="width:75%;" alt="Ten Foot Tiger Band" src="./GRG.png"/></div>-->
+    <div class="w3-col l6 flex-container h2 padding" style="width:50%">
       <!--<h3 class="center padding">Upcoming Events</h4>-->
-        <p class="left-align padding">
+        <p class="left-align padding body">
           <br style="font-size: 30px"> Upcoming Events<br>
           <br style="font-size: 20px"> Sunday May 4 <br>Himmel Haus, South Lake Tahoe @6pm</br>
           <br>Friday May 16 <br>Golden Road Gathering, Placerville @12pm</br>
@@ -175,7 +183,7 @@
     </div>
     <div class="w3-col l6 flex-container padding" style="width:50%">
       <!--<h3 class="padding">Past Events</h4>-->
-        <p class="right-align padding">
+        <p class="right-align padding body">
           <br style="font-size: 30px"> Past Events<br>
           <br style="font-size: 20px"> 
             Ten Foot Tiger has played at various venues and <br>festivals around California and Nevada including: 
@@ -197,17 +205,16 @@
     </div>
 </div>
       
- 
 
+<!-- Music Section -->
 
-  <!-- Music Section -->
-<div id="music" class="text-center padding">
-    <h1 class="padding6">Music</h1><br>
+<div id="music" class="text-center h2 padding padding5">
+    <h1 class=" ">Music</h1><br>
       <div class="flex-container" style="padding-bottom: 50px"> 
         <div class="padding h3"><h3 class="w3-left" style="padding: 20px;">Purchase <br>Music</h2>  
           <br><a href="https://www.apple.com/us/search/ten-foot-tiger?src=globalnav" title="apple_music" target="_blank"class="w3-hover-text-orange">Apple Music</a></br> 
         </div>
-          <div class="padding">
+          <!--<div class="padding">
         <h3 class="text-center h3">Original Music</h2>
           <ul class="left-align scrolling padding2">
             <li>Estoy Esperando</li>
@@ -224,15 +231,17 @@
             <li>Miles Away</li>
             <li>Beautiful Dilemma</li>
           </ul>
-      </div>
+      </div>-->
         <div class="padding h3"><h3 class="w3-right" style="padding: 20px;">Listen to<br> Music</br></h2>
           <br><a href="https://open.spotify.com/artist/5lXLHTcHNqWMuGChgReIp1" title="spotify" target="_blank"class="w3-hover-text-orange">Spotify</a></br>
         </div>
       </div>
 </div>
-  
-    <!-- Photo Section -->
-  <div id="photos" class="center w3-padding-large" >
+
+
+<!-- Photo Section -->
+
+  <div id="photos" class="center h2 w3-padding-large" >
     <h1 class="text-center padding">Photos</h1><br>
       <div class="center padding2" style="width:100%;">
         <img class="mySlides" src="./Reel 3.png" alt="Bassist Mike band photo" style="width:100%; display:none;">
@@ -251,33 +260,24 @@
         <img class="w3-opacity w3-hover-opacity-off" src="./Reel 7.png" style="padding-left: 20px; padding-right: 20px; width:100%; cursor: pointer" onclick="currentDiv(5)"/>
         <img class="w3-opacity w3-hover-opacity-off" src="./Reel 9.png" style="padding-left: 20px; padding-right: 20px; width:100%; cursor: pointer" onclick="currentDiv(6)"/>
     </div>
-
-
 </div>
 
-  
 
 <!-- Video Section -->
+
 <div id="videos" class="text-center">
     <h1 class="padding5">Videos</h1><br>
-    <div class="w3-col flex-container padding6">
-      <div class="w3-col l4 w3-left padding2" style="width:33.33%;">
-        <p class="h3 padding2">Green Lemonade</p>
-        <iframe class="flex-container" width="600" height="400" src="https://www.youtube.com/embed/AtD6Rw8MOCQ?si=6C5s8bk1CwOvo25C" title="Ten Foot Tiger Green Lemonade Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-      <div class="center w3-col l4 padding2" sstyle="width:33.33%;">
-        <p class="h3 padding2">Addicted To Escape</p>
-        <iframe class="flex-container" width="600" height="400" src="https://www.youtube.com/embed/S1MhPIgnNEo?si=RjGIdmzDYMx87wLa" title="Ten Foot Tiger Addicted to Escape Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
-      </div>
-      <div class="w3-col l4 w3-right padding2" style="width:33.33%;">
-        <p class="h3 padding2">Estoy Esperando</p>
-        <iframe class="flex-container" width="600" height="400" src="https://www.youtube.com/embed/Q-APTkkeJ_8?si=OGzKiy453k73tUqP" title="Ten Foot Tiger Estoy Esperando Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding-bottom: 50px;"></iframe>
-      </div>
+    <div class="padding2">
+        <iframe class="" width="650" height="400" src="https://www.youtube.com/embed/AtD6Rw8MOCQ?si=6C5s8bk1CwOvo25C" title="Ten Foot Tiger Green Lemonade Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe class="" width="650" height="400" src="https://www.youtube.com/embed/S1MhPIgnNEo?si=RjGIdmzDYMx87wLa" title="Ten Foot Tiger Addicted to Escape Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+        <iframe class="" width="650" height="400" src="https://www.youtube.com/embed/Q-APTkkeJ_8?si=OGzKiy453k73tUqP" title="Ten Foot Tiger Estoy Esperando Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+     
   </div>
 </div>
   
 
-           <!-- Merch Section -->
+<!-- Merch Section -->
+
     <div id="merch" class="text-center center padding5" style="width:100%;">
         <h1 class="padding6">Merch</h1>
         <div>
@@ -296,20 +296,20 @@
           </thead>
           <tr>
               <td class="w3-hover-text-orange h3 table"><img src="./Shirt1.jpg"><br>Black & White<br>XS, S, M, L, XL</br></td>
-              <td class="w3-hover-text-orange h3 table"><img src="./Tigerpillar.jpg"><br>Tigerpillar<br>8"x12"</br></td>
-              <td class="w3-hover-text-orange h3 table"><img src="./TFTSticker1.jpg"><br>Tiger Face Logo<br>2"D</br></td>
+              <td class="w3-hover-text-orange h3 table"><img src="./TFT-Print-Tigerpillar.jpg"><br>Tigerpillar<br>8"x12"</br></td>
+              <td class="w3-hover-text-orange h3 table"><img src="./TFTSticker1-.jpg"><br>Tiger Face Logo<br>2"D</br></td>
               <!--<td class="w3-hover-text-orange h3  table padding style">Live at Torch Club</td>-->
           </tr>
           <tr>
               <td class="w3-hover-text-orange h3 table"><img src="./Shirt3.jpg"><br>Orange & Black<br>XS, S, M, L, XL</br></td>
-              <td class="w3-hover-text-orange h3 table"><img src="./TFT-Color.jpg"><br>Ten Foot Tiger<br>8"x12</br></td>
-              <td class="w3-hover-text-orange h3 table"><img src="./TFTSticker2.jpg"><br>TFT Color Logo<br>2"x3"</br></td>
+              <td class="w3-hover-text-orange h3 table"><img src="./TFT-Print-Color.jpg"><br>Ten Foot Tiger<br>8"x12</br></td>
+              <td class="w3-hover-text-orange h3 table"><img src="./TFTSticker2-.jpg"><br>TFT Color Logo<br>2"x3"</br></td>
               <!--<td class="w3-hover-text-orange h3  table padding style">Live Mix</td>-->
           </tr>
           <tr>
-            <td class="w3-hover-text-orange h3 table"><img src="./Shirt4.jpg"><br>Rainbow & White<br>XS, S, M, L, XL</br></td>
-            <td class="w3-hover-text-orange h3 table"><img src="./TFT-BW.jpg"><br>TFT B&W<br>8"x12</br></td>
-            <td class="w3-hover-text-orange h3 table"><img src="./TFTSticker3.jpg"><br>TFT B&W Logo<br>2"x3"</br></td>
+            <td class="w3-hover-text-orange h3 table"><img src="./Shirt2.jpg"><br>Rainbow & White<br>XS, S, M, L, XL</br></td>
+            <td class="w3-hover-text-orange h3 table"><img src="./TFT-Print-BW.jpg"><br>TFT B&W<br>8"x12</br></td>
+            <td class="w3-hover-text-orange h3 table"><img src="./TFTSticker3-.jpg"><br>TFT B&W Logo<br>2"x3"</br></td>
             <!--<td class="w3-hover-text-orange h3  table padding style">Live at GRG</td>-->
         </tr>
       </table>
@@ -318,6 +318,7 @@
 
 
 <!-- Footer -->
+
 <footer class="w3-center sticky-box2 h3"style="padding:10px; color: black; background-color: white;">
   <a href="https://www.instagram.com/tenfoottiger/" title="instagram" class="w3-hover-text-orange"><img src="iIG.jpg"></a>
   <a href="https://www.facebook.com/tenfoottiger/" title="facebook" class="w3-hover-text-orange"><img src="iFacebook.jpg"></a>

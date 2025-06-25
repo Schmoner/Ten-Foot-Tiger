@@ -1,4 +1,14 @@
 
+/* W3.CSS 5/22/12 2025 by Simone Sannazzaro */
+
+html {box-sizing: border-box;}
+ *,
+  *:before,
+  *:after {box-sizing: inherit;}
+
+  .header{clear: both;}
+  
+  
 html {box-sizing: border-box;box-sizing: inherit;}
 
 html {-ms-text-size-adjust: 100%;
@@ -14,7 +24,7 @@ body {font-family: Copperplate; font-size:20px;}
 .h6 {font-size: 14px;}
 
 
-p {font: Copperplate; font-size: 12px;}
+p {font: Futura; font-size: 12px;}
 p {border: 5px solid orange; padding: 20px; margin: 20px;}
 
 .bold-text {font-weight: bold}

@@ -108,13 +108,27 @@ html {box-sizing: border-box;}
   }
   /* End extract */
 
-body {font-family: Copperplate; font-size:25px;}
+.h1 {font-family: Copperplate; font-size: 50px;}
+.h2 {font-family: Copperplate; font-size: 40px;}
+.h3 {font-family: Copperplate; font-size: 30px;}
+.body {font-family: Futura; font-size: 20px;}
+body {font-family: Futura; font-size: 20px;}
+header {font-family: Copperplate;}
+
 
 .bgimg {min-height: 100%; background-position: center; background-size: cover;}
 
-.h1 {font-size: 35px;}
-.h2 {font-size: 30px;}
-.h3 {font-size: 25px;}  
+
+.box {float: left; width: 33.33%; padding: 50px;}
+.grid::after {content: ""; clear: both; display: table;}
+.grid {content: ""; clear: both; display: table;}
+
+
+.header{clear: both;}
+
+.h1 {font-family: Copperplate; font-size: 35px;}
+.h2 {font-family: Copperplate; font-size: 30px;}
+.h3 {font-family: Copperplate; font-size: 25px;}  
 
 .sticky-box1 {position: sticky; top: 0;float: top; position: fixed;}
 .sticky-box2 {position: sticky; bottom: 0;}
