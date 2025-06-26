@@ -5,13 +5,12 @@
     <style>
       body {font-family: Futura; font-size: 20px; color: white;background-color: black;}
       header {font-family: Copperplate;}
-      @media screen and (max-width: 500px) {.flex-container>div {width: 45%;}}
-      @media screen and (max-width: 750px) {.flex-container>div {width: 30%;}}
-      @media (max-width: 768px) {.w3-modal-content {width: 500px;}.w3-modal {padding-top: 50px;}}
+
       @media (min-width: 993px) {.w3-modal-content {width: 900px;}.w3-hide-large {display: none !important;}.w3-sidebar.w3-collapse {display: block !important;}}
+      @media (max-width: 992px) {.w3-sidebar.w3-collapse {display: none;}}
       @media (max-width: 992px) and (min-width: 601px) {.w3-hide-medium {display: none !important;}}
       @media (max-width: 600px) {.w3-hide-small {display: none !important;}}
-      @media (max-width: 992px) {.w3-sidebar.w3-collapse {display: none;}}
+      @media (max-width: 600px) {.w3-mobile {display: block; width: 100% !important;}}
      </style>
     <title>Ten Foot Tiger</title>
       <meta charset="UTF-8">
@@ -60,11 +59,11 @@
 
 <!-- Sidebar (hidden by default) -->
 
-<nav class="w3-sidebar h2 w3-bar-block w3-card w3-top w3-animate-left left-align w3-hide-large" style="font-size:25px; display:box; width:125px; height:300px; color: black; background-color: white;" id="mySidebar">
+<nav class="w3-sidebar h2 w3-bar-block w3-card w3-top w3-animate-left left-align w3-hide-large w3-mobile" style="font-size:25px; display:box; width:125px; height:300px; color: black; background-color: white;" id="mySidebar">
   <a 
       href="javascript:void(0)" 
       onclick="w3_close()"
-      class="w3-bar-item w3-button w3-large"> &times;</a>
+      class="w3-bar-item w3-button"> &times;</a>
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
     <a href="#events" onclick="w3_close()" class="w3-bar-item w3-button">Events</a>
     <a href="#music" onclick="w3_close()" class="w3-bar-item w3-button">Music</a>
@@ -124,9 +123,9 @@
   
 <!--Accordian Text-->
   <div class="flex-container w3-row padding6" style="width:100%;"> 
-      <div class="w3-center padding style1">
+      <div class="w3-center  style1">
         <button onclick="myAccordion('accordion1')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn1">
-          <h4 class="padding  text-center h3 center-align" style="width:33%;">Dan Green<br>Guitar<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
+          <h4 class="text-center h3 center-align" style="width:30%;">Dan Green<br>Guitar<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
         </button>
           <div
               id="accordion1"
@@ -136,9 +135,9 @@
           </div>
       </div>
     
-      <div class="w3-center padding style1">
+      <div class="w3-center  style1">
         <button onclick="myAccordion('accordion2')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn2">
-          <h4 class="padding text-center center-align h3" style="width:33%;">Mike Palmer<br>Bass<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
+          <h4 class="text-center center-align h3" style="width:30%;">Mike Palmer<br>Bass<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
         </button>
           <div
               id="accordion2"
@@ -148,9 +147,9 @@
           </div>
     </div>    
     
-      <div class="w3-center padding style1">
+      <div class="w3-center  style1">
         <button onclick="myAccordion('accordion3')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn3">
-          <h4 class="padding text-center h3 center-align" style="width:33%;">Billy Thompson<br>Drums<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
+          <h4 class="text-center h3 center-align" style="width:30%;">Billy Thompson<br>Drums<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
         </button>
           <div
               id="accordion3"
@@ -166,7 +165,6 @@
 
 <section id="events" class="text-center h2 padding5">
   <h1>Events</h1><br>
-  <div>
   <!--<img class="w3-image" style="width:75%;" alt="Ten Foot Tiger Band" src="./GRG.png"/></div>-->
     <div class="w3-col l6 flex-container h2 padding" style="width:50%">
       <!--<h3 class="center padding">Upcoming Events</h4>-->
@@ -225,7 +223,7 @@
 <!-- Photo Section -->
 
   <section id="photos" class="text-center h2 padding">
-    <h1 class="text-center">Photos</h1><br>
+    <h1>Photos</h1><br>
       <div class="center padding" style="width:100%;">
         <img class="mySlides" src="./Reel 3.png" alt="Bassist Mike band photo" style="width:100%; display:none;">
         <img class="mySlides" src="./Reel 4.png" alt="Singer Guitarist Dan band photo" style="width:100%; display:none;">
@@ -248,15 +246,14 @@
 
 <!-- Video Section -->
 
-<div id="videos" class="text-center h2 padding5">
+<section id="videos" class="text-center h2 padding5">
     <h1 class="padding5">Videos</h1><br>
     <div class="padding2">
         <iframe class="" width="650" height="400" src="https://www.youtube.com/embed/AtD6Rw8MOCQ?si=6C5s8bk1CwOvo25C" title="Ten Foot Tiger Green Lemonade Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <iframe class="" width="650" height="400" src="https://www.youtube.com/embed/S1MhPIgnNEo?si=RjGIdmzDYMx87wLa" title="Ten Foot Tiger Addicted to Escape Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
         <iframe class="" width="650" height="400" src="https://www.youtube.com/embed/Q-APTkkeJ_8?si=OGzKiy453k73tUqP" title="Ten Foot Tiger Estoy Esperando Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-     
-  </div>
-</div>
+    </div>
+</section>
   
 
 <!-- Merch Section -->
@@ -302,11 +299,11 @@
 
 <!-- Footer -->
 
-<footer class="w3-center sticky-box2 h3 w3-bottom float"style="padding:5px;">
+<footer class="w3-center sticky-box2 h3 w3-bottom float" style="padding:5px; background:black;">
   <a href="https://www.instagram.com/tenfoottiger/" title="instagram" class="w3-hover-text-orange"><img src="iIGS.jpg"></a>
   <a href="https://www.facebook.com/tenfoottiger/" title="facebook" class="w3-hover-text-orange"><img src="iFacebookS.jpg"></a>
   <a href="https://www.youtube.com/@tenfoottiger" title="youtube" class="w3-hover-text-orange"><img src="iYouTubeS.jpg"></a>
-  ©2025 Ten Foot Tiger
+  ©2025 TFT
   <a href="https://www.apple.com/us/search/ten-foot-tiger?src=globalnav" title="apple_music" class="w3-hover-text-orange"><img src="iAppleS.jpg"></a>
   <a href="https://open.spotify.com/artist/5lXLHTcHNqWMuGChgReIp1" title="spotify" class="w3-hover-text-orange"><img src="iSpotifyS.jpg"></a>
   <a href="https://tunetrax.com/ten-foot-tiger" title="tunetrax" class="w3-hover-text-orange"><img src="iTuneTraxS.jpg"></a>
