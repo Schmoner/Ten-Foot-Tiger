@@ -194,7 +194,7 @@ html {box-sizing: border-box;}
 .style {color: black; background-color: white;}
 
   img {
-    vertical-align: middle;
+    vertical-align: middle; max-width: 100%; max-height: auto;
   }
   a {
     color: inherit;
