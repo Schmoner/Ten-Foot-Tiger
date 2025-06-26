@@ -786,7 +786,7 @@ html {box-sizing: border-box;}
     display: inline-block;
   }
   .w3-display-hover {
-    display: none;
+    display: orange;
   }
   .w3-display-position {
     position: absolute;
