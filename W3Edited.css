@@ -180,7 +180,8 @@ html {box-sizing: border-box;}
 .float {float:top;}
 
 #accordionBtn1:hover {background-color: orange;}
-#accordionBtn2:hover {background-color: orangered;}
+#accordionBtn2:hover {background-color: orange;}
+#accordionBtn3:hover {background-color: orange;}
 .myAccordian
 
 .w3-opacity, .w3-hover-opacity:hover {opacity: 0.6;}
