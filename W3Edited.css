@@ -597,8 +597,8 @@ html {box-sizing: border-box;}
     overflow: hidden;
   }
   .w3-stretch {
-    margin-left: -16px;
-    margin-right: -16px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .w3-content,
   .w3-auto {
@@ -609,7 +609,7 @@ html {box-sizing: border-box;}
     max-width: 980px;
   }
   .w3-auto {
-    max-width: 1140px;
+    max-width: 1280px;
   }
   .w3-cell-row {
     display: table;
@@ -660,10 +660,10 @@ html {box-sizing: border-box;}
     .w3-mobile {
       display: block;
       width: 100%;
-      h1 {font-family: Copperplate; font-size: 50px;}
-      h2 {font-family: Copperplate; font-size: 40px;}
-      h3 {font-family: Copperplate; font-size: 30px;}
-      body {font-family: Futura; font-size: 20px;}
+      h1 {font-family: Copperplate; font-size: 30px;}
+      h2 {font-family: Copperplate; font-size: 250px;}
+      h3 {font-family: Copperplate; font-size: 20px;}
+      body {font-family: Futura; font-size: 15px;}
             
     }
     .w3-bar-item.w3-mobile,
