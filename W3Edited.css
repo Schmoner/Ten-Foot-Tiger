@@ -660,10 +660,11 @@ html {box-sizing: border-box;}
     .w3-mobile {
       display: block;
       width: 100%;
-      h1 {font-family: Copperplate; font-size: 30px;}
-      h2 {font-family: Copperplate; font-size: 250px;}
-      h3 {font-family: Copperplate; font-size: 20px;}
-      body {font-family: Futura; font-size: 15px;}
+      body {font-family: Futura; font-size: 10px;}
+      h1 {font-family: Copperplate; font-size: 25px;}
+      h2 {font-family: Copperplate; font-size: 20px;}
+      h3 {font-family: Copperplate; font-size: 15px;}
+  
             
     }
     .w3-bar-item.w3-mobile,
