@@ -34,42 +34,35 @@
 
 <header class="header sticky-box1 h2 text-center w3-top float" style="width:100%; background-color: black">
   <a href="#about">
-    <img class="w3-left padding7" style="height: 125px;" src="./TFT_Logo.png"> </a> 
+    <img class="w3-left" style="height: 125px; padding-top: 10px; padding-left: 10px;" src="./TFT_Logo.png"> </a> 
       <i class="w3-right fa fa-shopping-cart" style="font-size:50px; color:black;padding:25px;"></i>
         <h1 class="w3-mobile">Ten Foot Tiger</h1>
-        <nav class="">
         <div class="text-center h3" style="width:100%;">
-    <i class="w3-left fa fa-bars margin1 w3-hover-text-orange w3-hide-large" style="padding-left: 25px;"></i> 
-  <a
-    href="javascript:void(0)"
-    class="w3-bar-item w3-button text-center"
-    onclick="w3_open()">
+  <a href="javascript:void(0)"
+    class="w3-bar-item w3-button w3-left"
+    onclick="w3_open()"><i class="fa fa-bars w3-hide-large  w3-hover-text-orange" style="font-size: 35px; padding-left: 40px;"></i>
   </a>
-      <a href="#about" class="w3-bar-item w3-button w3-hover-text-orange w3-hide-small" >About</a>
-      <a href="#events" class="w3-bar-item w3-button w3-hover-text-orange w3-hide-small">Events</a>
-      <a href="#music" class="w3-bar-item w3-button w3-hover-text-orange w3-hide-small">Music</a>
-      <a href="#photos" class="w3-bar-item w3-button w3-hover-text-orange w3-hide-small">Photos</a>
-      <a href="#videos" class="w3-bar-item w3-button w3-hover-text-orange w3-hide-small">Videos</a>
-      <a href="#merch" class="w3-bar-item w3-button w3-hover-text-orange w3-hide-small">Merch</a>
-    <!-- <a><i class="w3-right fa fa-search margin1 w3-hover-text-orange" style="font-size:25px"></i></a>-->
+      <a href="#about" class="h2 3-bar-item w3-button w3-hover-text-orange w3-hide-medium w3-hide-small" >About</a>
+      <a href="#events" class="h2 w3-bar-item w3-button w3-hover-text-orange w3-hide-medium w3-hide-small">Events</a>
+      <a href="#music+videos" class="h2 w3-bar-item w3-button w3-hover-text-orange w3-hide-medium w3-hide-small">Music</a>
+      <a href="#photos" class="h2 w3-bar-item w3-button w3-hover-text-orange w3-hide-medium w3-hide-small">Photos</a>
+      <a href="#merch" class="h2 w3-bar-item w3-button w3-hover-text-orange w3-hide-medium w3-hide-small">Merch</a>
   </div>
 </header>
-</nav>
 
 
 <!-- Sidebar (hidden by default) -->
 
-<nav class="w3-sidebar h2 w3-bar-block w3-card w3-top w3-animate-left left-align w3-hide-large w3-mobile" style="font-size:25px; display:box; width:125px; height:300px; color: black; background-color: white;" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-animate-left left-align w3-hide-large" style="font-size:20px; display:box; width:125px; height:320px; color: white; background-color: black;" id="mySidebar">
   <a 
       href="javascript:void(0)" 
       onclick="w3_close()"
-      class="w3-bar-item w3-button"> &times;</a>
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
-    <a href="#events" onclick="w3_close()" class="w3-bar-item w3-button">Events</a>
-    <a href="#music" onclick="w3_close()" class="w3-bar-item w3-button">Music</a>
-    <a href="#photos" onclick="w3_close()" class="w3-bar-item w3-button">Photos</a>
-    <a href="#videos" onclick="w3_close()" class="w3-bar-item w3-button">Videos</a>
-    <a href="#merch" onclick="w3_close()" class="w3-bar-item w3-button">Merch</a>
+      class="w3-bar-item w3-button w3-large w3-padding-16 w3-hover-text-orange"><img src="./PawPrintM.jpg"></src></a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button h3 w3-hover-text-orange">About</a>
+    <a href="#events" onclick="w3_close()" class="w3-bar-item w3-button h3 w3-hover-text-orange">Events</a>
+    <a href="#music+videos" onclick="w3_close()" class="w3-bar-item w3-button h3 w3-hover-text-orange">Music</a>
+    <a href="#photos" onclick="w3_close()" class="w3-bar-item w3-button h3 w3-hover-text-orange">Photos</a>
+    <a href="#merch" onclick="w3_close()" class="w3-bar-item w3-button h3 w3-hover-text-orange">Merch</a>
 </nav>
 
 
@@ -82,111 +75,32 @@
       </div>
 </div>
 
-
-<!--Lightbox Images-->
-
-    <div class="center flex-container" style="width:100%;">
-      <img class="side-margin padding style1 w3-hover-shadow" src="./TFT Band 1.png" 
-        style="cursor: zoom-in"
-        onclick="document.getElementById('modal01').style.display='block'">
-      <img class="side-margin padding style1 w3-hover-shadow" src="./TFT Band 2.png"
-        style="cursor: zoom-in"
-        onclick="document.getElementById('modal02').style.display='block'">
-      <img class="side-margin padding style1 w3-hover-shadow" src="./TFT Band 3.png"
-        style="cursor: zoom-in"
-        onclick="document.getElementById('modal03').style.display='block'">
-    </div>
-
-    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-      <span style="cursor: pointer">&times;</span>
-        <div class="w3-modal-content w3-animate-zoom style" style="padding-top: 10px; font-size: 40px;">
-          <h4 class="w3-center">Dan Green</h4>
-            <img src="./TFT Band 1 L.png" style="width:100%;"/>
-        </div>
-    </div>
-
-    <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
-      <span style="cursor: pointer">&times;</span>
-        <div class="w3-modal-content w3-animate-zoom style" style="padding-top: 10px; font-size: 40px;">
-          <h4 class="w3-center">Mike Palmer</h4>
-            <img src="./TFT Band 2 L.png" style="width:100%;"/>
-        </div>
-    </div>
-    
-    <div id="modal03" class="w3-modal" onclick="this.style.display='none'">
-      <span style="cursor: pointer">&times;</span>
-        <div class="w3-modal-content w3-animate-zoom style" style="padding-top: 10px; font-size: 40px;">
-          <h4 class="w3-center">Billy Thompson</h4>
-            <img src="./TFT Band 3 L.png" style="width:100%;"/>
-        </div>
-  </div>
-  
-<!--Accordian Text-->
-  <div class="flex-container w3-row padding6" style="width:100%;"> 
-      <div class="w3-center  style1">
-        <button onclick="myAccordion('accordion1')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn1">
-          <h4 class="text-center h3 center-align" style="width:30%;">Dan Green<br>Guitar<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
-        </button>
-          <div
-              id="accordion1"
-              class="w3-hide w3-container left-align padding6"
-              style="height: 260px">
-            <p class="padding6"> Dan Green began playing guitar at age 18. His first band, Saturn Rising, started in South Lake Tahoe. He continued to play with Waiting For Tim, Adient Zoo, and Black Star Safari before creating Ten Foot Tiger. </p>
-          </div>
-      </div>
-    
-      <div class="w3-center  style1">
-        <button onclick="myAccordion('accordion2')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn2">
-          <h4 class="text-center center-align h3" style="width:30%;">Mike Palmer<br>Bass<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
-        </button>
-          <div
-              id="accordion2"
-              class="w3-hide w3-container left-align padding6"
-              style="height: 260px">
-            <p class="padding6"> Mike has been playing bass since he was 15 and has been a part of the Sacramento music scene for years. His other bands in the area include The Nibblers, Mubmo Gumbo, and Bellygunner. </p>
-          </div>
-    </div>    
-    
-      <div class="w3-center  style1">
-        <button onclick="myAccordion('accordion3')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn3">
-          <h4 class="text-center h3 center-align" style="width:30%;">Billy Thompson<br>Drums<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
-        </button>
-          <div
-              id="accordion3"
-              class="w3-hide w3-container left-align padding6"
-              style="height: 260px">
-            <p class="padding6"> Billy is a Sacramento drummer with over 10 years of experience in the local music scene. His main band is The Gold Souls with his wife and other local musicians, and he's also played in Boot Juice, Sum Phat Hop and more. </p>
-          </div>
-    </div> 
-  </div>
-
   
 <!-- Events Section -->
 
-<section id="events" class="text-center h2 padding5" style="width:100%;">
-  <h1>Events</h1><br>
-  <!--<img class="w3-image" style="width:75%;" alt="Ten Foot Tiger Band" src="./GRG.png"/></div>-->
-    <div class="w3-col l6 w3-col s12 flex-box h2 padding" style="width:50%">
-      <!--<h3 class="center padding">Upcoming Events</h4>-->
-        <p class="left-align padding body">
-          <br> Upcoming Events<br>
+<div id="events" class="text-center padding3">
+  <h2 class="h1">Events</h2><br>
+    <div class="w3-col l6 m12 s12 flex-container left-align padding2">
+        <p>
+          Upcoming Events
           <br>
-          <br> Sunday May 4 <br>Himmel Haus, South Lake Tahoe @6pm</br>
-          <br>Friday May 16 <br>Golden Road Gathering, Placerville @12pm</br>
-          <br>Friday May 23 <br>Cafe Colonial, Sacramento @9pm</br>
-          <br>Saturday May 24 <br>Whiskey Dicks, South Lake Tahoe @9pm</br>
-          <br>Friday-Sunday June 20-22 <br>Davis Music Fest, Davis</br>
-          <br>Next shows to be announced in the near future...</br>
-          <br>Follow Ten Foot Tiger on  <a href="https://www.facebook.com/tenfoottiger/" title="facebook" class="w3-hover-text-orange">Facebook</a> or  <a href="https://www.instagram.com/tenfoottiger/" title="instagram" class="w3-hover-text-orange">Instagram</a> for updates. </p><br> 
+          <br>Friday April 11 <br>Placerville @ 9pm</br>
+          <br>Saturday April 12 <br>Elements, South Lake Tahoe @ 9pm</br>
+          <br> Sunday May 4 <br>Himmel Haus </br>
+          <br>Friday May 16 <br>Golden Road Gathering, Placerville @10pm</br>
+          <br>June 20-22 Davis Music Fest, Davis</br>
+          <br></br>
+          <br>Next shows to be announced in the near future...
+          <br><br>Follow Ten Foot Tiger on  <a href="https://www.facebook.com/tenfoottiger/" title="facebook" class="w3-hover-text-orange">Facebook</a> or  <a href="https://www.instagram.com/tenfoottiger/" title="instagram" class="w3-hover-text-orange">Instagram</a> for updates. </p><br> </br>
         </p>
     </div>
-    <div class="w3-col l6 s12 flex-box padding" style="width:50%">
-      <!--<h3 class="padding">Past Events</h4>-->
-        <p class="right-align padding body">
-          <br> Past Events<br> 
+    <div class="w3-col l6 m12 s12 flex-container right-align padding2">
+        <p>
+          Past Events
           <br>
-            <br>Ten Foot Tiger has played at various venues and <br>festivals around California and Nevada including: 
-            <br></br>
+          <br>
+            Ten Foot Tiger has played at various venues and festivals around California and Nevada including: 
+            <br>
             <br>Golden Road Gathering Festival - Placerville
             <br>High Sierra Music Festival - Quincy
             <br>For The Funk Of It - Belden
@@ -200,31 +114,39 @@
             <br>Lost on Main - Chico
             <br>The Cypress - Reno
             <br>Alpine Meadows - Truckee
-            <br>And more!       
+            
     </div>
-  </section>
+</div>
       
 
-<!-- Music Section -->
+ <!-- Music Section -->
 
-<section id="music" class=" text-center h2 padding5">
-    <h1 class="">Music</h1><br>
-      <div class="flex-container" style="padding-bottom: 100px"> 
-        <div class="h3"><h3>Purchase Music</h2>  
-          <br>  <a href="https://www.apple.com/us/search/ten-foot-tiger?src=globalnav" title="apple_music" class="w3-hover-text-orange"><img src="iApple 2.jpg"></a></br> 
-        </div>
-        <div class="h3"><h3>Listen to Music</br></h2>
-          <br><a href="https://open.spotify.com/artist/5lXLHTcHNqWMuGChgReIp1" title="spotify" class="w3-hover-text-orange"><img src="iSpotify 2.jpg"></a></br>
-        </div>
-      </div>
+  <div class="flex-container"> 
+    <div id="music+videos" class="text-center padding3">
+      <h2 class="h1">Music and Videos</h2><br>
+        
+          <div class="padding2 w3-col l6 m12 s12" style="font-family: Copperplate;"><h3>Purchase Music</h2>  
+            <a href="https://www.apple.com/us/search/ten-foot-tiger?src=globalnav" title="apple_music"><img src="iApple2.jpg"></a>
+          </div>
+          <div class="padding2 w3-col l6 m12 s12" style="font-family: Copperplate;"><h3>Listen to Music</br></h2>
+            <a href="https://open.spotify.com/artist/5lXLHTcHNqWMuGChgReIp1" title="spotify"><img src="iSpotify2.jpg"></a>
+          </div>
+    </div>
+  </div>
+<section id="videos" class="text-center h2 padding2" style="width:100%;">
+    <div>
+        <iframe class="padding2" width="650" height="400" src="https://www.youtube.com/embed/AtD6Rw8MOCQ?si=6C5s8bk1CwOvo25C" title="Ten Foot Tiger Green Lemonade Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe class="padding2" width="650" height="400" src="https://www.youtube.com/embed/S1MhPIgnNEo?si=RjGIdmzDYMx87wLa" title="Ten Foot Tiger Addicted to Escape Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+        <iframe class="padding2" width="650" height="400" src="https://www.youtube.com/embed/Q-APTkkeJ_8?si=OGzKiy453k73tUqP" title="Ten Foot Tiger Estoy Esperando Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 </section>
 
 
 <!-- Photo Section -->
 
-  <section id="photos" class="text-center h2 padding">
-    <h1>Photos</h1><br>
-      <div class="center padding" style="width:100%;">
+  <div id="photos" class="text-center padding3">
+    <h2 class="h1">Photos</h2><br>
+      <div class="center padding" style="width:100%; padding-bottom: 100px;">
         <img class="mySlides" src="./Reel1.png" alt="Ten Foot Tiger band photo Sacramento" style="width:100%; display:none;">
         <img class="mySlides" src="./Reel2.png" alt="Ten Foot Tiger band photo Hopmonk Sebastapol" style="width:100%; display:none;">
         <img class="mySlides" src="./Reel3.png" alt="Bassist Mike band photo Golden Road Gathering" style="width:100%; display:none;">
@@ -244,25 +166,93 @@
         <img class="w3-opacity w3-hover-opacity-off" src="./Reel 7.png" style="padding-left: 20px; padding-right: 20px; width:100%; cursor: pointer" onclick="currentDiv(5)"/>
         <img class="w3-opacity w3-hover-opacity-off" src="./Reel 9.png" style="padding-left: 20px; padding-right: 20px; width:100%; cursor: pointer" onclick="currentDiv(6)"/>
     </div>-->
-</section>
 
 
-<!-- Video Section -->
+    <!--Lightbox Images-->
 
-<section id="videos" class="text-center h2 padding2" style="width:100%;">
-    <h1 class="">Videos</h1><br>
-    <div>
-        <iframe class="padding2" width="650" height="400" src="https://www.youtube.com/embed/AtD6Rw8MOCQ?si=6C5s8bk1CwOvo25C" title="Ten Foot Tiger Green Lemonade Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe class="padding2" width="650" height="400" src="https://www.youtube.com/embed/S1MhPIgnNEo?si=RjGIdmzDYMx87wLa" title="Ten Foot Tiger Addicted to Escape Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
-        <iframe class="padding2" width="650" height="400" src="https://www.youtube.com/embed/Q-APTkkeJ_8?si=OGzKiy453k73tUqP" title="Ten Foot Tiger Estoy Esperando Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="center flex-container" style="width:100%;">
+      <img class="side-margin padding style1 w3-hover-shadow" src="./TFT Band 1.png" 
+        style="cursor: zoom-in"
+        onclick="document.getElementById('modal01').style.display='block'">
+      <img class="side-margin padding style1 w3-hover-shadow" src="./TFT Band 2.png"
+        style="cursor: zoom-in"
+        onclick="document.getElementById('modal02').style.display='block'">
+      <img class="side-margin padding style1 w3-hover-shadow" src="./TFT Band 3.png"
+        style="cursor: zoom-in"
+        onclick="document.getElementById('modal03').style.display='block'">
     </div>
-</section>
+
+    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+      <span style="cursor: pointer">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom style" style="padding-top: 10px; font-family: Copperplate; font-size: 40px;">
+          <h4 class="w3-center">Dan Green</h4>
+            <img src="./TFT Band 1 L.png" style="width:100%;"/>
+        </div>
+    </div>
+
+    <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
+      <span style="cursor: pointer">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom style" style="padding-top: 10px; font-family: Copperplate; font-size: 40px;">
+          <h4 class="w3-center">Mike Palmer</h4>
+            <img src="./TFT Band 2 L.png" style="width:100%;"/>
+        </div>
+    </div>
+    
+    <div id="modal03" class="w3-modal" onclick="this.style.display='none'">
+      <span style="cursor: pointer">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom style" style="padding-top: 10px; font-family: Copperplate; font-size: 40px;">
+          <h4 class="w3-center">Billy Thompson</h4>
+            <img src="./TFT Band 3 L.png" style="width:100%;"/>
+        </div>
+  </div>
+  
+
+<!--Accordian Text-->
+
+  <div class="flex-container w3-row padding6" style="width:100%;"> 
+      <div class="w3-center  style1">
+        <button onclick="myAccordion('accordion1')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn1">
+          <h4 class="text-center h3 center-align">Dan Green<br>Guitar<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
+        </button>
+          <div
+              id="accordion1"
+              class="w3-hide w3-container left-align padding6"
+              style="height: 260px">
+            <p class="padding6"> Dan Green began playing guitar at age 18. His first band, Saturn Rising, started in South Lake Tahoe. He continued to play with Waiting For Tim, Adient Zoo, and Black Star Safari before creating Ten Foot Tiger. </p>
+          </div>
+      </div>
+    
+      <div class="w3-center  style1">
+        <button onclick="myAccordion('accordion2')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn2">
+          <h4 class="text-center center-align h3">Mike Palmer<br>Bass<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
+        </button>
+          <div
+              id="accordion2"
+              class="w3-hide w3-container left-align padding6"
+              style="height: 260px">
+            <p class="padding6"> Mike has been playing bass since he was 15 and has been a part of the Sacramento music scene for years. His other bands in the area include The Nibblers, Mubmo Gumbo, and Bellygunner. </p>
+          </div>
+    </div>    
+    
+      <div class="w3-center  style1">
+        <button onclick="myAccordion('accordion3')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn3">
+          <h4 class="text-center h3 center-align">Billy Thompson<br>Drums<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
+        </button>
+          <div
+              id="accordion3"
+              class="w3-hide w3-container left-align padding6"
+              style="height: 260px">
+            <p class="padding6"> Billy is a Sacramento drummer with over 10 years of experience in the local music scene. His main band is The Gold Souls with his wife and other local musicians, and he's also played in Boot Juice, Sum Phat Hop and more. </p>
+          </div>
+    </div> 
+  </div>
+</div>
   
 
 <!-- Merch Section -->
 
-    <div id="merch" class="text-center h3 center padding5" style="width:100%;">
-        <h1 class="padding6">Merch</h1>
+    <div id="merch" class="text-center padding3">
+        <h2 class="h1">Merch</h2>
         <div>
          <p class="padding2 body"> Ten Foot Tiger shirts and stickers are only available at shows...for now. 
          <br>
@@ -297,6 +287,12 @@
         </tr>
       </table>
     </div>
+
+<!--Site Info-->
+<p class="text-center" style="padding-bottom: 30px;">
+  Site created by <a href="https://simonesannazzaroart.com/"title="SimoneSannazzaroArt" class="w3-hover-text-orange">SimoneSannazzaroArt.com</a>
+</p>
+
 <!-- End page content -->
 
 
