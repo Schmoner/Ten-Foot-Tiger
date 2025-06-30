@@ -198,7 +198,7 @@ html {box-sizing: border-box;}
 
 .w3-opacity-off, .w3-hover-opacity-off:hover {opacity: 1;}
 
-.auto-size {width: 100%; height: 500%}
+.auto-size {width: auto; height: 100%}
 
 .padding-large {padding:24px;}
 
@@ -658,7 +658,7 @@ html {box-sizing: border-box;}
       width: auto !important;
     }
     .w3-modal {
-      padding-top: 30px;
+      padding-top: 0px;
     }
     .w3-dropdown-hover.w3-mobile .w3-dropdown-content,
     .w3-dropdown-click.w3-mobile .w3-dropdown-content {
