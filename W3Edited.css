@@ -128,6 +128,7 @@ html {box-sizing: border-box;}
 .h1 {font-family: Copperplate; font-size: 35px;}
 .h2 {font-family: Copperplate; font-size: 30px;}
 .h3 {font-family: Copperplate; font-size: 25px;}  
+.p2 {font-family: Copperplate; font-size: 20px;}
 
 .sticky-box1 {position: sticky; top: 0;float: top; position: fixed;}
 .sticky-box2 {position: sticky; bottom: 0;}
@@ -157,9 +158,18 @@ html {box-sizing: border-box;}
 .padding6 {padding-bottom: 50px;}
 .padding7 {padding:10px;}
 
-.table {width:25%; height: 100px;}
+.table {width:33%; height: 100px;}
 
 .mySlides {margin-left: auto; margin-right:auto; max-width:60%;}
+
+ .w3-mobile {
+      display: block;
+      width: 100%;
+      body {font-family: Futura; font-size: 10px;}
+      h1 {font-family: Copperplate; font-size: 30px;}
+      h2 {font-family: Copperplate; font-size: 20px;}
+      h3 {font-family: Copperplate; font-size: 15px;}
+      p2 {font-family: Copperplate; font-size: 10px;}}
 
 .left-align{text-align: left;}
 .center-align{text-align: center;}
@@ -657,16 +667,7 @@ html {box-sizing: border-box;}
     .w3-hide-small {
       display: none !important;
     }
-    .w3-mobile {
-      display: block;
-      width: 100%;
-      body {font-family: Futura; font-size: 10px;}
-      h1 {font-family: Copperplate; font-size: 25px;}
-      h2 {font-family: Copperplate; font-size: 20px;}
-      h3 {font-family: Copperplate; font-size: 15px;}
-  
-            
-    }
+   
     .w3-bar-item.w3-mobile,
     .w3-dropdown-hover.w3-mobile,
     .w3-dropdown-click.w3-mobile {
