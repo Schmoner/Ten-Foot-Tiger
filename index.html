@@ -169,17 +169,12 @@
 
     <!--Lightbox Images-->
 
-    <div class="center flex-container" style="width:100%;">
-      <img class="side-margin padding style1 w3-hover-shadow" src="./TFT Band 1.png" 
+<div class="center flex-container padding6" style="width:100%;">
+  
+  <div1 class="w3-col ll4 m12 s12"> 
+      <img class="side-margin padding w3-hover-shadow" src="./TFT Band 1.png" 
         style="cursor: zoom-in"
         onclick="document.getElementById('modal01').style.display='block'">
-      <img class="side-margin padding style1 w3-hover-shadow" src="./TFT Band 2.png"
-        style="cursor: zoom-in"
-        onclick="document.getElementById('modal02').style.display='block'">
-      <img class="side-margin padding style1 w3-hover-shadow" src="./TFT Band 3.png"
-        style="cursor: zoom-in"
-        onclick="document.getElementById('modal03').style.display='block'">
-    </div>
 
     <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
       <span style="cursor: pointer">&times;</span>
@@ -189,27 +184,7 @@
         </div>
     </div>
 
-    <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
-      <span style="cursor: pointer">&times;</span>
-        <div class="w3-modal-content w3-animate-zoom style" style="padding-top: 10px; font-family: Copperplate; font-size: 40px;">
-          <h4 class="w3-center">Mike Palmer</h4>
-            <img src="./TFT Band 2 L.png" style="width:100%;"/>
-        </div>
-    </div>
-    
-    <div id="modal03" class="w3-modal" onclick="this.style.display='none'">
-      <span style="cursor: pointer">&times;</span>
-        <div class="w3-modal-content w3-animate-zoom style" style="padding-top: 10px; font-family: Copperplate; font-size: 40px;">
-          <h4 class="w3-center">Billy Thompson</h4>
-            <img src="./TFT Band 3 L.png" style="width:100%;"/>
-        </div>
-  </div>
-  
-
-<!--Accordian Text-->
-
-  <div class="flex-container w3-row padding6" style="width:100%;"> 
-      <div class="w3-center  style1">
+      <div class="w3-center ">
         <button onclick="myAccordion('accordion1')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn1">
           <h4 class="text-center h3 center-align">Dan Green<br>Guitar<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
         </button>
@@ -220,8 +195,23 @@
             <p class="padding6"> Dan Green began playing guitar at age 18. His first band, Saturn Rising, started in South Lake Tahoe. He continued to play with Waiting For Tim, Adient Zoo, and Black Star Safari before creating Ten Foot Tiger. </p>
           </div>
       </div>
-    
-      <div class="w3-center  style1">
+  </div1> 
+
+  <div2 class="w3-col ll4 m12 s12">
+      <img class="side-margin padding w3-hover-shadow" src="./TFT Band 2.png"
+        style="cursor: zoom-in"
+        onclick="document.getElementById('modal02').style.display='block'">
+
+  <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
+      <span style="cursor: pointer">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom style" style="padding-top: 10px; font-family: Copperplate; font-size: 40px;">
+          <h4 class="w3-center">Mike Palmer</h4>
+            <img src="./TFT Band 2 L.png" style="width:100%;"/>
+        </div>
+    </div>
+
+
+      <div class="w3-center ">
         <button onclick="myAccordion('accordion2')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn2">
           <h4 class="text-center center-align h3">Mike Palmer<br>Bass<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
         </button>
@@ -231,9 +221,25 @@
               style="height: 260px">
             <p class="padding6"> Mike has been playing bass since he was 15 and has been a part of the Sacramento music scene for years. His other bands in the area include The Nibblers, Mubmo Gumbo, and Bellygunner. </p>
           </div>
-    </div>    
+    </div>  
+  </div2>
+
+  <div3 class="w3-col ll4 m12 s12">
+      <img class="side-margin padding w3-hover-shadow" src="./TFT Band 3.png"
+        style="cursor: zoom-in"
+        onclick="document.getElementById('modal03').style.display='block'">
+   
     
-      <div class="w3-center  style1">
+    <div id="modal03" class="w3-modal" onclick="this.style.display='none'">
+      <span style="cursor: pointer">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom style" style="padding-top: 10px; font-family: Copperplate; font-size: 40px;">
+          <h4 class="w3-center">Billy Thompson</h4>
+            <img src="./TFT Band 3 L.png" style="width:100%;"/>
+        </div>
+    </div>
+
+
+      <div class="w3-center ">
         <button onclick="myAccordion('accordion3')" class="w3-button w3-block text-center padding6 w3-hover-black" id="accordionBtn3">
           <h4 class="text-center h3 center-align">Billy Thompson<br>Drums<br><br><img class="center w3-hover-black" src="./PawPrintM.jpg"/></h4> 
         </button>
@@ -243,9 +249,10 @@
               style="height: 260px">
             <p class="padding6"> Billy is a Sacramento drummer with over 10 years of experience in the local music scene. His main band is The Gold Souls with his wife and other local musicians, and he's also played in Boot Juice, Sum Phat Hop and more. </p>
           </div>
-    </div> 
+      </div> 
   </div>
 </div>
+  
   
 
 <!-- Merch Section -->
@@ -265,21 +272,21 @@
               <!--<th class="w3-hover-text-orange h2 border table padding style">CDs</th>-->
           </thead>
           <tr>
-              <td class="w3-hover-text-orange"><img src="./Shirt1.jpg" style="height: 100%; width: auto;"><p2 class="p2 padding">Black & White</p></td>
-              <td class="w3-hover-text-orange"><img src="./TFT-Print-Tigerpillar.jpg" style="height: 100%; width: auto;"><p2 class="p2 padding">Tigerpillar</p></td>
-              <td class="w3-hover-text-orange"><img src="./TFTSticker1-.jpg" style="height: 100%; width: auto;"><p2 class="p2 padding">Tiger Face 2"D</p></td>
+              <td class="w3-hover-text-orange"><img src="./Shirt1.jpg"><p2 class="p2 padding">Black & White</p></td>
+              <td class="w3-hover-text-orange"><img src="./TFT-Print-Tigerpillar.jpg"><p2 class="p2 padding">Tigerpillar</p></td>
+              <td class="w3-hover-text-orange"><img src="./TFTSticker1-.jpg"><p2 class="p2 padding">Tiger Face 2"D</p></td>
               <!--<td class="w3-hover-text-orange h3  table padding style">Live at Torch Club</td>-->
           </tr>
           <tr>
-              <td class="w3-hover-text-orange"><img src="./Shirt4.jpg" style="height: 100%; width: auto;"><p2 class="p2 padding">Rainbow</p></td>
-              <td class="w3-hover-text-orange"><img src="./TFT-Print-Color.jpg" style="height: 100%; width: auto;"><p2 class="p2 padding">Ten Foot Tiger</p></td>
-              <td class="w3-hover-text-orange"><img src="./TFTSticker2-.jpg" style="height: 100%; width: auto;"><p2 class="p2 padding">TFT B&W 2"x3"</p></td>
+              <td class="w3-hover-text-orange"><img src="./Shirt4.jpg"><p2 class="p2 padding">Rainbow</p></td>
+              <td class="w3-hover-text-orange"><img src="./TFT-Print-Color.jpg"><p2 class="p2 padding">Ten Foot Tiger</p></td>
+              <td class="w3-hover-text-orange"><img src="./TFTSticker2-.jpg"><p2 class="p2 padding">TFT B&W 2"x3"</p></td>
               <!--<td class="w3-hover-text-orange h3  table padding style">Live Mix</td>-->
           </tr>
           <tr>
-            <td class="w3-hover-text-orange"><img src="./Shirt2.jpg" style="height: 100%; width: auto;"><p2 class="p2 padding">Tank Top</p></td>
-            <td class="w3-hover-text-orange"><img src="./TFT-Print-BW.jpg" style="height: 100%; width: auto;"><p2 class="p2 padding">TFT B&W</p></td>
-            <td class="w3-hover-text-orange"><img src="./TFTSticker3-.jpg" style="height: 100%; width: auto;"><p2 class="p2 padding">TFT Color 2"x3"</p></td>
+            <td class="w3-hover-text-orange"><img src="./Shirt2.jpg"><p2 class="p2 padding">Tank Top</p></td>
+            <td class="w3-hover-text-orange"><img src="./TFT-Print-BW.jpg"><p2 class="p2 padding">TFT B&W</p></td>
+            <td class="w3-hover-text-orange"><img src="./TFTSticker3-.jpg"><p2 class="p2 padding">TFT Color 2"x3"</p></td>
             <!--<td class="w3-hover-text-orange h3  table padding style">Live at GRG</td>-->
         </tr>
       </table>
