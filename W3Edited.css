@@ -108,9 +108,7 @@ html {box-sizing: border-box;}
   }
   /* End extract */
 
-.h1 {font-family: Copperplate; font-size: 50px;}
-.h2 {font-family: Copperplate; font-size: 40px;}
-.h3 {font-family: Copperplate; font-size: 30px;}
+
 .body {font-family: Futura; font-size: 20px;}
 
 
@@ -129,6 +127,13 @@ html {box-sizing: border-box;}
 .h2 {font-family: Copperplate; font-size: 30px;}
 .h3 {font-family: Copperplate; font-size: 25px;}  
 .p2 {font-family: Copperplate; font-size: 20px;}
+.body {font-family: Futura; font-size: 20px;}
+
+.h1-small {font-family: Copperplate; font-size: 20px;}
+.h2-small {font-family: Copperplate; font-size: 16px;}
+.h3-small {font-family: Copperplate; font-size: 12px;}  
+.p2-small {font-family: Copperplate; font-size: 10px;}
+.body-small {font-family: Futura; font-size: 10px;}
 
 .sticky-box1 {position: sticky; top: 0;float: top; position: fixed;}
 .sticky-box2 {position: sticky; bottom: 0;}
