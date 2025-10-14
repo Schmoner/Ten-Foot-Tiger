@@ -123,9 +123,9 @@ html {box-sizing: border-box;}
 
 .header{clear: both;}
 
-.h1 {font-family: Copperplate; font-size: 35px;}
-.h2 {font-family: Copperplate; font-size: 30px;}
-.h3 {font-family: Copperplate; font-size: 25px;}  
+.h1 {font-family: Copperplate; font-size: 30px;}
+.h2 {font-family: Copperplate; font-size: 25x;}
+.h3 {font-family: Copperplate; font-size: 20px;}  
 .p2 {font-family: Copperplate; font-size: 20px;}
 .body {font-family: Futura; font-size: 20px;}
 
@@ -182,8 +182,16 @@ html {box-sizing: border-box;}
 
 .scrolling {height:200px; overflow:auto;}
 
+  .w3-sidebar {height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;}
+
 .block {display: block; width: 100%;}
 .block2 {display: block; width: 50%;}
+.block3 {display: block; width: 25%;}
 
 .w3-bar {width: 100%;overflow: hidden;}
 
@@ -382,14 +390,7 @@ html {box-sizing: border-box;}
     position: relative;
     top: 6px;
   }
-  .w3-sidebar {
-    height: 100%;
-    width: 200px;
-    background-color: #fff;
-    position: fixed !important;
-    z-index: 1;
-    overflow: auto;
-  }
+
   .w3-bar-block .w3-dropdown-hover,
   .w3-bar-block .w3-dropdown-click {
     width: 100%;
