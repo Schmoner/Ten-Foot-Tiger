@@ -109,17 +109,13 @@ html {box-sizing: border-box;}
   /* End extract */
 
 
-.body {font-family: Futura; font-size: 20px;}
-
 
 
 .bgimg {min-height: 100%; background-position: center; background-size: cover;}
 
-
 .box {float: left; width: 33.33%; padding: 50px;}
 .grid::after {content: ""; clear: both; display: table;}
 .grid {content: ""; clear: both; display: table;}
-
 
 .header{clear: both;}
 
@@ -127,13 +123,13 @@ html {box-sizing: border-box;}
 .h2 {font-family: Copperplate; font-size: 25x;}
 .h3 {font-family: Copperplate; font-size: 20px;}  
 .p2 {font-family: Copperplate; font-size: 20px;}
-.body {font-family: Futura; font-size: 20px;}
+.body {font-family: Monserrat; font-size: 20px;}
 
 .h1-small {font-family: Copperplate; font-size: 20px;}
 .h2-small {font-family: Copperplate; font-size: 16px;}
 .h3-small {font-family: Copperplate; font-size: 12px;}  
 .p2-small {font-family: Copperplate; font-size: 10px;}
-.body-small {font-family: Futura; font-size: 10px;}
+.body-small {font-family: Monserrat; font-size: 10px;}
 
 .sticky-box1 {position: sticky; top: 0;float: top; position: fixed;}
 .sticky-box2 {position: sticky; bottom: 0;}
@@ -170,7 +166,7 @@ html {box-sizing: border-box;}
  .w3-mobile {
       display: block;
       width: 100%;
-      body {font-family: Futura; font-size: 10px;}
+      body {font-family: Monserrat; font-size: 10px;}
       h1 {font-family: Copperplate; font-size: 30px;}
       h2 {font-family: Copperplate; font-size: 20px;}
       h3 {font-family: Copperplate; font-size: 15px;}
